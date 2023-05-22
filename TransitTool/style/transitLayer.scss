@@ -1,0 +1,324 @@
+
+.leaflet-layer-transit {
+    fill: none;
+    stroke: slateblue;
+    stroke-width: 0.5;
+    stroke-opacity: 0.4;
+}
+
+.leaflet-layer-transit-highlight {
+    fill: none;
+    stroke: gold;
+    stroke-width: 2;
+    stroke-opacity: 0.4;
+}
+
+.leaflet-layer-transit-other {
+    fill: none;
+    stroke: lightgray;
+    stroke-width: 0.5;
+    stroke-opacity: 0.4;
+}
+
+.leaflet-routing-container {
+    display: none;
+}
+
+.leaflet-bar {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+}
+
+#setMode {
+    background-color: rgba(55, 71, 79, 0.9);
+    color: white;
+}
+
+#disableMode {
+    background-color: rgba(55, 71, 79, 0.2);
+    color: white;
+}
+
+.geovisto-button-autocomplete-component {
+    display: flex;
+}
+
+.geovisto-button-autocomplete-button {
+    margin: 0.5em auto !important;
+}
+
+.geovisto-stop-type-autocomplete-component {
+    display: flex;
+}
+
+.geovisto-stop-type-autocomplete-component a:hover {
+    background-color: #fff;
+}
+
+.geovisto-stop-type-autocomplete-div {
+    margin: 1em auto 1em auto !important;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+#geovisto-stop-type-autocomplete-div-hoover {
+    background-color: rgba(55, 71, 79, 0.9);
+}
+
+.geovisto-color-autocomplete-component {
+    display: flex;
+}
+
+.geovisto-color-autocomplete-label {
+    width: 25%;
+    height: 30px;
+    float: left;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    display: flex;
+    color: black;
+}
+
+.geovisto-color-autocomplete-input {
+    margin: auto auto auto 0;
+    width: 50%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgba(73, 175, 193, 0.8);
+}
+
+.geovisto-stop-order-autocomplete-component {
+    padding-top: 1em;
+}
+
+.geovisto-stop-order-autocomplete-stop-complete {
+    display: flex;
+    height: 30px;
+    width: 70%;
+    margin: 0.25em auto 0.25em auto;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.geovisto-stop-order-autocomplete-stop-complete:hover {
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.geovisto-stop-order-autocomplete-stop-label {
+    width: 64%;
+    margin: auto;
+    padding-left: 0.5em;
+}
+
+.geovisto-stop-order-autocomplete-button {
+    width: 12%;
+}
+
+button.geovisto-stop-order-autocomplete-button {
+    padding: 0;
+}
+
+.geovisto-import-autocomplete-component {
+    display: flex;
+}
+
+.geovisto-import-autocomplete-label {
+    width: 25%;
+    height: 30px;
+    float: left;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    color: black;
+    display: flex;
+}
+
+.geovisto-import-autocomplete-input {
+    width: 50%;
+    float: left;
+    justify-content: left;
+    margin: auto 0 auto 0;
+}
+
+.geovisto-filters-autocomplete-line {
+    margin: 1em auto 1em auto;
+    background-color: rgba(220, 220, 220, 0.6);
+    display: grid;
+}
+
+.geovisto-filters-autocomplete-routes {
+    display: grid;
+    grid-template-areas: 'item item item';
+    grid-gap: 0.2em;
+    width: 100%;
+}
+
+.geovisto-filters-autocomplete-button {
+    height: 30px;
+    margin: 0.2em auto 0.2em auto;
+    text-align: center;
+    background-color: rgba(73, 175, 193, 0.8);
+    border-radius: 3px;
+    border: 1px solid transparent;
+    color: white;
+}
+
+.geovisto-filters-autocomplete-button-hide {
+    height: 30px;
+    margin: 0.2em auto 0.2em auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    border: 1px solid transparent;
+    color: black;
+}
+
+.geovisto-filters-autocomplete-button-disallow {
+    height: 30px;
+    margin: 0.2em auto 0.2em auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    border: 1px solid transparent;
+    color: black;
+}
+
+.geovisto-data-autocomplete-label {
+    height: 30px;
+    margin: 0.2em auto 0.2em auto;
+    text-align: center;
+    background-color: rgba(73, 175, 193, 0.8);
+    padding: 0.2em 0 0.2em 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    border-radius: 3px;
+}
+
+.geovisto-data-autocomplete-depart {
+    height: 30px;
+    margin: 0.4em auto 0.4em auto;
+    display: flex;
+}
+
+.geovisto-data-autocomplete-dep_time {
+    width: 15%;
+    margin: 0 0.4em 0 0.4em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+}
+
+.geovisto-data-autocomplete-dep_line {
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 3px;
+    margin: 0 0.4em 0 0.4em;
+    background-color: rgba(55, 71, 79, 0.9);
+    color: white;
+}
+
+.geovisto-data-autocomplete-dep_dest {
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    margin: 0 0.4em 0 0.4em;
+}
+
+.geovisto-data-autocomplete-veh-time {
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(55, 71, 79, 0.9);
+    color: white;
+    border-radius: 3px;
+    margin: 0 0.4em 0 0.4em;
+}
+
+.geovisto-data-autocomplete-veh-label {
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    margin: 0 0.4em 0 0.4em;
+}
+
+.vehicle_icon {
+    width: 2.5em !important;
+    height: 2.5em !important;
+    margin: -1.25em -1.25em !important;
+}
+
+.vehicle_label {
+    margin: auto;
+    background-color: rgb(55, 71, 79);
+    border-radius: 0.5em;
+}
+
+.dot {
+    background-color: rgb(55, 71, 79);
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 314159;
+}
+
+.progress_label {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .progress_label {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .progress_label {
+        width: 60%;
+    }
+}
+
+@media (max-width: 700px) {
+    .progress_label {
+        width: 100%;
+    }
+}
+
+.progress_bar {
+    margin: 1rem;
+    width: 90%;
+}
