@@ -1,0 +1,1683 @@
+{
+  "zoom": 15,
+  "mapCenter": {
+    "lat": 48.42799117774271,
+    "lng": 17.799096107482914
+  },
+  "tools": [
+    {
+      "type": "geovisto-tool-sidebar",
+      "id": "geovisto-tool-sidebar",
+      "enabled": true,
+      "tabs": [
+        {
+          "tool": "geovisto-tool-settings",
+          "enabled": true,
+          "name": "General settings",
+          "icon": "<i class=\"fa fa-gear\"></i>",
+          "checkButton": false,
+          "fragments": [
+            {
+              "tool": "geovisto-tool-themes",
+              "enabled": true
+            },
+            {
+              "tool": "geovisto-tool-selection",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "tool": "geovisto-tool-layer-map",
+          "enabled": true,
+          "name": "Map layer settings",
+          "icon": "<i class=\"fa fa-globe\"></i>",
+          "checkButton": true
+        },
+        {
+          "tool": "geovisto-tool-transit",
+          "enabled": true,
+          "name": "Transit layer settings",
+          "icon": "<i class=\"fa fa-bus\"></i>",
+          "checkButton": true
+        }
+      ]
+    },
+    {
+      "type": "geovisto-tool-settings",
+      "id": "geovisto-tool-settings",
+      "enabled": true
+    },
+    {
+      "type": "geovisto-tool-filters",
+      "id": "geovisto-tool-filters",
+      "enabled": true,
+      "filterRules": []
+    },
+    {
+      "type": "geovisto-tool-themes",
+      "id": "geovisto-tool-themes",
+      "enabled": true,
+      "theme": "light1"
+    },
+    {
+      "type": "geovisto-tool-selection",
+      "id": "geovisto-tool-selection",
+      "enabled": true
+    },
+    {
+      "type": "geovisto-tool-layer-map",
+      "id": "geovisto-tool-layer-map",
+      "enabled": true,
+      "layerName": "Map layer"
+    },
+    {
+      "type": "geovisto-tool-layer-choropleth",
+      "id": "geovisto-tool-layer-choropleth",
+      "enabled": false,
+      "layerName": "Choropleth layer",
+      "data": {
+        "country": "",
+        "value": "",
+        "aggregation": ""
+      }
+    },
+    {
+      "type": "geovisto-tool-layer-marker",
+      "id": "geovisto-tool-layer-marker",
+      "enabled": true,
+      "layerName": "Marker layer",
+      "data": {
+        "country": "state",
+        "value": "state",
+        "aggregation": "count",
+        "category": "state"
+      }
+    },
+    {
+      "type": "geovisto-tool-layer-connection",
+      "id": "geovisto-tool-layer-connection",
+      "enabled": true,
+      "layerName": "Connection layer",
+      "data": {
+        "from": "state",
+        "to": "state"
+      }
+    },
+    {
+      "type": "geovisto-tool-transit",
+      "id": "geovisto-tool-transit",
+      "enabled": true,
+      "layerName": "Transit layer",
+      "data": {},
+      "stops": [
+        {
+          "id": 0,
+          "name": "Dolná Sihoť, Gaštanová ul.",
+          "latLng": {
+            "lat": 48.4178960021433,
+            "lng": 17.78323352336884
+          },
+          "type": 5
+        },
+        {
+          "id": 1,
+          "name": "Dolná Sihoť, Humanus",
+          "latLng": {
+            "lat": 48.41971529589477,
+            "lng": 17.783072590827945
+          },
+          "type": 5
+        },
+        {
+          "id": 2,
+          "name": "Poliklinika",
+          "latLng": {
+            "lat": 48.42547180834733,
+            "lng": 17.78793275356293
+          },
+          "type": 5
+        },
+        {
+          "id": 3,
+          "name": "Nábr. A. Hlinku",
+          "latLng": {
+            "lat": 48.42717513972158,
+            "lng": 17.79047012329102
+          },
+          "type": 5
+        },
+        {
+          "id": 4,
+          "name": "Nábr. A. Hlinku",
+          "latLng": {
+            "lat": 48.42764145496883,
+            "lng": 17.791140675544742
+          },
+          "type": 5
+        },
+        {
+          "id": 5,
+          "name": "Ul. R. Dilonga, č. 5",
+          "latLng": {
+            "lat": 48.431907302661706,
+            "lng": 17.79771745204926
+          },
+          "type": 5
+        },
+        {
+          "id": 6,
+          "name": "Hlohová ul.",
+          "latLng": {
+            "lat": 48.42852402323297,
+            "lng": 17.7966982126236
+          },
+          "type": 5
+        },
+        {
+          "id": 7,
+          "name": "Podzámska ul.",
+          "latLng": {
+            "lat": 48.425132043120335,
+            "lng": 17.795367836952213
+          },
+          "type": 5
+        },
+        {
+          "id": 8,
+          "name": "Ul. SNP",
+          "latLng": {
+            "lat": 48.42583289026036,
+            "lng": 17.801123857498172
+          },
+          "type": 5
+        },
+        {
+          "id": 9,
+          "name": "Nitrianska ul., č. 23",
+          "latLng": {
+            "lat": 48.423935729142244,
+            "lng": 17.80920267105103
+          },
+          "type": 5
+        },
+        {
+          "id": 10,
+          "name": "Kaufland",
+          "latLng": {
+            "lat": 48.42066229844247,
+            "lng": 17.813730239868168
+          },
+          "type": 5
+        },
+        {
+          "id": 11,
+          "name": "Farmapavilón",
+          "latLng": {
+            "lat": 48.42226789232184,
+            "lng": 17.81389117240906
+          },
+          "type": 5
+        },
+        {
+          "id": 12,
+          "name": "Nitrianska ul., cintorín",
+          "latLng": {
+            "lat": 48.42523508041058,
+            "lng": 17.805050611495975
+          },
+          "type": 5
+        },
+        {
+          "id": 13,
+          "name": "Bernolákova ul., autoškola",
+          "latLng": {
+            "lat": 48.42577438907084,
+            "lng": 17.803395688533787
+          },
+          "type": 5
+        },
+        {
+          "id": 14,
+          "name": "Bernolákova ul., pešia lávka",
+          "latLng": {
+            "lat": 48.43071537241282,
+            "lng": 17.809830307960514
+          },
+          "type": 5
+        },
+        {
+          "id": 15,
+          "name": "Železničná stanica",
+          "latLng": {
+            "lat": 48.43304826835572,
+            "lng": 17.806525826454166
+          },
+          "type": 5
+        },
+        {
+          "id": 16,
+          "name": "Ul. M. Benku",
+          "latLng": {
+            "lat": 48.43548788229664,
+            "lng": 17.806134223937992
+          },
+          "type": 5
+        },
+        {
+          "id": 17,
+          "name": "Bekaert a.s.",
+          "latLng": {
+            "lat": 48.42999434166087,
+            "lng": 17.81293630599976
+          },
+          "type": 5
+        },
+        {
+          "id": 18,
+          "name": "Mierová ul., č. 6",
+          "latLng": {
+            "lat": 48.43340418867352,
+            "lng": 17.810023427009586
+          },
+          "type": 5
+        },
+        {
+          "id": 19,
+          "name": "Mierová ul., STK",
+          "latLng": {
+            "lat": 48.4352869926257,
+            "lng": 17.813016772270206
+          },
+          "type": 5
+        },
+        {
+          "id": 20,
+          "name": "Gorkého ul.",
+          "latLng": {
+            "lat": 48.43742596843176,
+            "lng": 17.815334200859073
+          },
+          "type": 5
+        },
+        {
+          "id": 21,
+          "name": "Ul. Čsl. armády",
+          "latLng": {
+            "lat": 48.438536352937504,
+            "lng": 17.81168639659882
+          },
+          "type": 5
+        },
+        {
+          "id": 22,
+          "name": "Ul. A. Felcána",
+          "latLng": {
+            "lat": 48.43687076902767,
+            "lng": 17.807260751724247
+          },
+          "type": 5
+        },
+        {
+          "id": 23,
+          "name": "Hviezdoslavova ul., VÚ",
+          "latLng": {
+            "lat": 48.438513218703015,
+            "lng": 17.804688513278965
+          },
+          "type": 5
+        },
+        {
+          "id": 24,
+          "name": "Čulenova, Blachotrapez",
+          "latLng": {
+            "lat": 48.44092074668031,
+            "lng": 17.804358601570133
+          },
+          "type": 5
+        },
+        {
+          "id": 25,
+          "name": "Čulenova, č. d. 31",
+          "latLng": {
+            "lat": 48.44318759292495,
+            "lng": 17.801810503005985
+          },
+          "type": 5
+        },
+        {
+          "id": 26,
+          "name": "Svätopeterská ul.",
+          "latLng": {
+            "lat": 48.44140472788171,
+            "lng": 17.800008058547977
+          },
+          "type": 5
+        },
+        {
+          "id": 27,
+          "name": "Hviezdoslavova ul., VÚ",
+          "latLng": {
+            "lat": 48.43625864584043,
+            "lng": 17.805002331733707
+          },
+          "type": 5
+        },
+        {
+          "id": 28,
+          "name": "Hurbanova ul.",
+          "latLng": {
+            "lat": 48.43117249893259,
+            "lng": 17.808741331100467
+          },
+          "type": 5
+        },
+        {
+          "id": 29,
+          "name": "Jesenského ul.",
+          "latLng": {
+            "lat": 48.42601111449561,
+            "lng": 17.80320525169373
+          },
+          "type": 5
+        },
+        {
+          "id": 30,
+          "name": "Hlohová ul., ZŠ",
+          "latLng": {
+            "lat": 48.43000144327904,
+            "lng": 17.798023223876957
+          },
+          "type": 5
+        },
+        {
+          "id": 31,
+          "name": "Pribinova ul., Dom kultúry",
+          "latLng": {
+            "lat": 48.42843858803484,
+            "lng": 17.801021933555607
+          },
+          "type": 5
+        }
+      ],
+      "lines": [
+        {
+          "id": 0,
+          "name": "1",
+          "color": "#1b85b8",
+          "vis": true
+        },
+        {
+          "id": 1,
+          "name": "2",
+          "color": "#559e83",
+          "vis": true
+        },
+        {
+          "id": 2,
+          "name": "3",
+          "color": "#ae5a41",
+          "vis": true
+        }
+      ],
+      "routes": [
+        {
+          "id": 0,
+          "name": "1_Dol_Bek_N",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 17
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "1_Dol_Dol",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 29
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "1_Dol_Bek_UN",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 6
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 17
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "1_Dol_Dol_F",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 11
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 29
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "1_Bek_Dol",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 17
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 29
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 30
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Dol_Kau_A",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 31
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 11
+            },
+            {
+              "id": 10
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Dol_Far_E",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 6
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 11
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Dol_Hlo_H",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 6
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Dol_Kau_D",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 30
+            },
+            {
+              "pos": {
+                "lat": 48.42975423892992,
+                "lng": 17.799782752990726
+              }
+            },
+            {
+              "id": 31
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Zel_Zel_C",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 15
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 15
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Ben_Far_F",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 16
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 6
+            },
+            {
+              "id": 30
+            },
+            {
+              "id": 31
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 11
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Zel_Kau_B",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 15
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 10
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Zel_Far_A",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 15
+            },
+            {
+              "id": 31
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 11
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Kau_Dol_G",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 10
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 30
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Kau_Zel_D",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 10
+            },
+            {
+              "id": 11
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Far_Dol_C",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 11
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 30
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Far_Zel_A",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 11
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 30
+            },
+            {
+              "id": 15
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Far_Zel_E",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 11
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 30
+            },
+            {
+              "id": 15
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Pri_Dol_B",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 31
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Hlo_Pol_F",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 30
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Dol_Dol",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 29
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Dol_Pod_P",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 7
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Dol_Dol_M",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 29
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Pod_Dol",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 7
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 29
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Pod_Kau_U",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 7
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 31
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Kau_Hvie_U",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 10
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 23
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

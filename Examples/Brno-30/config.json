@@ -1,0 +1,636 @@
+{
+  "zoom": 16,
+  "mapCenter": {
+    "lat": 49.22549416175865,
+    "lng": 16.532921791076664
+  },
+  "tools": [
+    {
+      "type": "geovisto-tool-sidebar",
+      "id": "geovisto-tool-sidebar",
+      "enabled": true,
+      "tabs": [
+        {
+          "tool": "geovisto-tool-settings",
+          "enabled": true,
+          "name": "General settings",
+          "icon": "<i class=\"fa fa-gear\"></i>",
+          "checkButton": false,
+          "fragments": [
+            {
+              "tool": "geovisto-tool-themes",
+              "enabled": true
+            },
+            {
+              "tool": "geovisto-tool-selection",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "tool": "geovisto-tool-layer-map",
+          "enabled": true,
+          "name": "Map layer settings",
+          "icon": "<i class=\"fa fa-globe\"></i>",
+          "checkButton": true
+        },
+        {
+          "tool": "geovisto-tool-transit",
+          "enabled": true,
+          "name": "Transit layer settings",
+          "icon": "<i class=\"fa fa-bus\"></i>",
+          "checkButton": true
+        }
+      ]
+    },
+    {
+      "type": "geovisto-tool-settings",
+      "id": "geovisto-tool-settings",
+      "enabled": true
+    },
+    {
+      "type": "geovisto-tool-filters",
+      "id": "geovisto-tool-filters",
+      "enabled": true,
+      "filterRules": []
+    },
+    {
+      "type": "geovisto-tool-themes",
+      "id": "geovisto-tool-themes",
+      "enabled": true,
+      "theme": "light1"
+    },
+    {
+      "type": "geovisto-tool-selection",
+      "id": "geovisto-tool-selection",
+      "enabled": true
+    },
+    {
+      "type": "geovisto-tool-layer-map",
+      "id": "geovisto-tool-layer-map",
+      "enabled": true,
+      "layerName": "Map layer"
+    },
+    {
+      "type": "geovisto-tool-layer-choropleth",
+      "id": "geovisto-tool-layer-choropleth",
+      "enabled": false,
+      "layerName": "Choropleth layer",
+      "data": {
+        "country": "",
+        "value": "",
+        "aggregation": ""
+      }
+    },
+    {
+      "type": "geovisto-tool-layer-marker",
+      "id": "geovisto-tool-layer-marker",
+      "enabled": true,
+      "layerName": "Marker layer",
+      "data": {
+        "country": "state",
+        "value": "state",
+        "aggregation": "count",
+        "category": "state"
+      }
+    },
+    {
+      "type": "geovisto-tool-layer-connection",
+      "id": "geovisto-tool-layer-connection",
+      "enabled": true,
+      "layerName": "Connection layer",
+      "data": {
+        "from": "state",
+        "to": "state"
+      }
+    },
+    {
+      "type": "geovisto-tool-transit",
+      "id": "geovisto-tool-transit",
+      "enabled": true,
+      "layerName": "Transit layer",
+      "data": {},
+      "stops": [
+        {
+          "id": 0,
+          "name": "Královo Pole, nádraží",
+          "latLng": {
+            "lat": 49.22996808295438,
+            "lng": 16.59515976905823
+          },
+          "type": 1
+        },
+        {
+          "id": 1,
+          "name": "Semilasso",
+          "latLng": {
+            "lat": 49.227974784502635,
+            "lng": 16.593094468116764
+          },
+          "type": 1
+        },
+        {
+          "id": 2,
+          "name": "Husitská",
+          "latLng": {
+            "lat": 49.2241420933329,
+            "lng": 16.594285368919376
+          },
+          "type": 1
+        },
+        {
+          "id": 3,
+          "name": "Husitská",
+          "latLng": {
+            "lat": 49.22395640696,
+            "lng": 16.594381928443912
+          },
+          "type": 1
+        },
+        {
+          "id": 4,
+          "name": "Slovanské náměstí",
+          "latLng": {
+            "lat": 49.223532476079406,
+            "lng": 16.591114997863773
+          },
+          "type": 1
+        },
+        {
+          "id": 5,
+          "name": "Slovanské náměstí",
+          "latLng": {
+            "lat": 49.22284753139201,
+            "lng": 16.591490507125858
+          },
+          "type": 1
+        },
+        {
+          "id": 6,
+          "name": "Skácelova",
+          "latLng": {
+            "lat": 49.2221976066618,
+            "lng": 16.58773005008698
+          },
+          "type": 1
+        },
+        {
+          "id": 7,
+          "name": "Skácelova",
+          "latLng": {
+            "lat": 49.22205395689524,
+            "lng": 16.58716678619385
+          },
+          "type": 1
+        },
+        {
+          "id": 8,
+          "name": "Záhřebská",
+          "latLng": {
+            "lat": 49.21973798686627,
+            "lng": 16.57994091510773
+          },
+          "type": 1
+        },
+        {
+          "id": 9,
+          "name": "Záhřebská",
+          "latLng": {
+            "lat": 49.21964688911339,
+            "lng": 16.579570770263675
+          },
+          "type": 1
+        },
+        {
+          "id": 10,
+          "name": "Přívrat",
+          "latLng": {
+            "lat": 49.218504618407316,
+            "lng": 16.573787927627567
+          },
+          "type": 1
+        },
+        {
+          "id": 11,
+          "name": "Vrázova",
+          "latLng": {
+            "lat": 49.21695764270636,
+            "lng": 16.56847715377808
+          },
+          "type": 1
+        },
+        {
+          "id": 12,
+          "name": "Štursova",
+          "latLng": {
+            "lat": 49.216426790593026,
+            "lng": 16.563606262207035
+          },
+          "type": 1
+        },
+        {
+          "id": 13,
+          "name": "Štursova",
+          "latLng": {
+            "lat": 49.21590462778982,
+            "lng": 16.56443774700165
+          },
+          "type": 1
+        },
+        {
+          "id": 14,
+          "name": "Hlavní",
+          "latLng": {
+            "lat": 49.21673161390956,
+            "lng": 16.56021595001221
+          },
+          "type": 1
+        },
+        {
+          "id": 15,
+          "name": "Vozovna Komín",
+          "latLng": {
+            "lat": 49.21407158844158,
+            "lng": 16.559529304504398
+          },
+          "type": 1
+        },
+        {
+          "id": 16,
+          "name": "Podveská",
+          "latLng": {
+            "lat": 49.21760388364567,
+            "lng": 16.55894458293915
+          },
+          "type": 1
+        },
+        {
+          "id": 17,
+          "name": "Svratecká",
+          "latLng": {
+            "lat": 49.21890231779632,
+            "lng": 16.554425060749058
+          },
+          "type": 1
+        },
+        {
+          "id": 18,
+          "name": "Lísky",
+          "latLng": {
+            "lat": 49.21986223977052,
+            "lng": 16.548964083194736
+          },
+          "type": 1
+        },
+        {
+          "id": 19,
+          "name": "Podlesí",
+          "latLng": {
+            "lat": 49.21880596075122,
+            "lng": 16.542454361915592
+          },
+          "type": 1
+        },
+        {
+          "id": 20,
+          "name": "Kamenolom",
+          "latLng": {
+            "lat": 49.22175615232558,
+            "lng": 16.53701484203339
+          },
+          "type": 1
+        },
+        {
+          "id": 21,
+          "name": "Kamenolom",
+          "latLng": {
+            "lat": 49.22257600172976,
+            "lng": 16.53704702854157
+          },
+          "type": 1
+        },
+        {
+          "id": 22,
+          "name": "Bystrc, ZOO",
+          "latLng": {
+            "lat": 49.227337172279114,
+            "lng": 16.531350016593937
+          },
+          "type": 1
+        },
+        {
+          "id": 23,
+          "name": "Náměstí 28. dubna",
+          "latLng": {
+            "lat": 49.226356264959044,
+            "lng": 16.531966924667362
+          },
+          "type": 1
+        },
+        {
+          "id": 24,
+          "name": "Náměstí 28. dubna",
+          "latLng": {
+            "lat": 49.22512654719591,
+            "lng": 16.531194448471073
+          },
+          "type": 1
+        },
+        {
+          "id": 25,
+          "name": "Vondrákova",
+          "latLng": {
+            "lat": 49.22130767638612,
+            "lng": 16.52848541736603
+          },
+          "type": 1
+        },
+        {
+          "id": 26,
+          "name": "Laštůvkova",
+          "latLng": {
+            "lat": 49.220242531691426,
+            "lng": 16.52528822422028
+          },
+          "type": 1
+        },
+        {
+          "id": 27,
+          "name": "Filipova",
+          "latLng": {
+            "lat": 49.21762904292955,
+            "lng": 16.525164842605594
+          },
+          "type": 1
+        },
+        {
+          "id": 28,
+          "name": "Černého",
+          "latLng": {
+            "lat": 49.2139177926479,
+            "lng": 16.523163914680485
+          },
+          "type": 1
+        }
+      ],
+      "lines": [
+        {
+          "id": 0,
+          "name": "30",
+          "color": "#007f32",
+          "vis": true
+        }
+      ],
+      "routes": [
+        {
+          "id": 0,
+          "name": "30_KrPole_Cer",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 11
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 17
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 27
+            },
+            {
+              "id": 28
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "30_Pod_Cer",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 16
+            },
+            {
+              "id": 17
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 21
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 27
+            },
+            {
+              "id": 28
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "30_Cer_KrPole",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 28
+            },
+            {
+              "id": 27
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 17
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 11
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 6
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "30_Cer_Kom",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 28
+            },
+            {
+              "id": 27
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 17
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "30_Stur_KrPole",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 13
+            },
+            {
+              "id": 11
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 6
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

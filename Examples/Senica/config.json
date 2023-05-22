@@ -1,0 +1,871 @@
+{
+  "zoom": 15,
+  "mapCenter": {
+    "lat": 48.67924215178964,
+    "lng": 17.364921569824222
+  },
+  "tools": [
+    {
+      "type": "geovisto-tool-sidebar",
+      "id": "geovisto-tool-sidebar",
+      "enabled": true,
+      "tabs": [
+        {
+          "tool": "geovisto-tool-settings",
+          "enabled": true,
+          "name": "General settings",
+          "icon": "<i class=\"fa fa-gear\"></i>",
+          "checkButton": false,
+          "fragments": [
+            {
+              "tool": "geovisto-tool-themes",
+              "enabled": true
+            },
+            {
+              "tool": "geovisto-tool-selection",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "tool": "geovisto-tool-layer-map",
+          "enabled": true,
+          "name": "Map layer settings",
+          "icon": "<i class=\"fa fa-globe\"></i>",
+          "checkButton": true
+        },
+        {
+          "tool": "geovisto-tool-transit",
+          "enabled": true,
+          "name": "Transit layer settings",
+          "icon": "<i class=\"fa fa-bus\"></i>",
+          "checkButton": true
+        }
+      ]
+    },
+    {
+      "type": "geovisto-tool-settings",
+      "id": "geovisto-tool-settings",
+      "enabled": true
+    },
+    {
+      "type": "geovisto-tool-filters",
+      "id": "geovisto-tool-filters",
+      "enabled": true,
+      "filterRules": []
+    },
+    {
+      "type": "geovisto-tool-themes",
+      "id": "geovisto-tool-themes",
+      "enabled": true,
+      "theme": "light1"
+    },
+    {
+      "type": "geovisto-tool-selection",
+      "id": "geovisto-tool-selection",
+      "enabled": true
+    },
+    {
+      "type": "geovisto-tool-layer-map",
+      "id": "geovisto-tool-layer-map",
+      "enabled": true,
+      "layerName": "Map layer"
+    },
+    {
+      "type": "geovisto-tool-layer-choropleth",
+      "id": "geovisto-tool-layer-choropleth",
+      "enabled": false,
+      "layerName": "Choropleth layer",
+      "data": {
+        "country": "",
+        "value": "",
+        "aggregation": ""
+      }
+    },
+    {
+      "type": "geovisto-tool-layer-marker",
+      "id": "geovisto-tool-layer-marker",
+      "enabled": true,
+      "layerName": "Marker layer",
+      "data": {
+        "country": "state",
+        "value": "state",
+        "aggregation": "count",
+        "category": "state"
+      }
+    },
+    {
+      "type": "geovisto-tool-layer-connection",
+      "id": "geovisto-tool-layer-connection",
+      "enabled": true,
+      "layerName": "Connection layer",
+      "data": {
+        "from": "state",
+        "to": "state"
+      }
+    },
+    {
+      "type": "geovisto-tool-transit",
+      "id": "geovisto-tool-transit",
+      "enabled": true,
+      "layerName": "Transit layer",
+      "data": {},
+      "stops": [
+        {
+          "id": 0,
+          "name": "Autobusová stanica",
+          "latLng": {
+            "lat": 48.682823914693394,
+            "lng": 17.366825938224796
+          },
+          "type": 3
+        },
+        {
+          "id": 1,
+          "name": "Tesco",
+          "latLng": {
+            "lat": 48.6874899343422,
+            "lng": 17.368049025535587
+          },
+          "type": 3
+        },
+        {
+          "id": 2,
+          "name": "Poliklinika",
+          "latLng": {
+            "lat": 48.68759617507761,
+            "lng": 17.37224936485291
+          },
+          "type": 3
+        },
+        {
+          "id": 3,
+          "name": "Sotinská",
+          "latLng": {
+            "lat": 48.687266825351806,
+            "lng": 17.378541827201847
+          },
+          "type": 3
+        },
+        {
+          "id": 4,
+          "name": "Kunov, rázc.",
+          "latLng": {
+            "lat": 48.693750746891325,
+            "lng": 17.397993206977848
+          },
+          "type": 3
+        },
+        {
+          "id": 5,
+          "name": "Kunov, Jednota",
+          "latLng": {
+            "lat": 48.690330059955905,
+            "lng": 17.402729988098148
+          },
+          "type": 3
+        },
+        {
+          "id": 6,
+          "name": "Kunov, IBV",
+          "latLng": {
+            "lat": 48.68729834465173,
+            "lng": 17.398760318756107
+          },
+          "type": 3
+        },
+        {
+          "id": 7,
+          "name": "Agrostav",
+          "latLng": {
+            "lat": 48.68151845302548,
+            "lng": 17.382827997207645
+          },
+          "type": 3
+        },
+        {
+          "id": 8,
+          "name": "II. ZŠ",
+          "latLng": {
+            "lat": 48.67820359974938,
+            "lng": 17.376862764358524
+          },
+          "type": 3
+        },
+        {
+          "id": 9,
+          "name": "Brezová",
+          "latLng": {
+            "lat": 48.677208185765465,
+            "lng": 17.37101018428803
+          },
+          "type": 3
+        },
+        {
+          "id": 10,
+          "name": "Vajanského, cintorín",
+          "latLng": {
+            "lat": 48.67734467119411,
+            "lng": 17.368250191211704
+          },
+          "type": 3
+        },
+        {
+          "id": 11,
+          "name": "Sotina, Zimný štadión",
+          "latLng": {
+            "lat": 48.68558815634674,
+            "lng": 17.377181947231296
+          },
+          "type": 3
+        },
+        {
+          "id": 12,
+          "name": "Sotina, Amfiteáter",
+          "latLng": {
+            "lat": 48.685489000934545,
+            "lng": 17.373075485229496
+          },
+          "type": 3
+        },
+        {
+          "id": 13,
+          "name": "Sadová",
+          "latLng": {
+            "lat": 48.683498613512015,
+            "lng": 17.37126231193543
+          },
+          "type": 3
+        },
+        {
+          "id": 14,
+          "name": "Dlhá, č. 260",
+          "latLng": {
+            "lat": 48.67671936933899,
+            "lng": 17.367823719978336
+          },
+          "type": 3
+        },
+        {
+          "id": 15,
+          "name": "Gymnázium",
+          "latLng": {
+            "lat": 48.67652809351753,
+            "lng": 17.366632819175724
+          },
+          "type": 3
+        },
+        {
+          "id": 16,
+          "name": "DEMA",
+          "latLng": {
+            "lat": 48.675674421120036,
+            "lng": 17.355925440788273
+          },
+          "type": 3
+        },
+        {
+          "id": 17,
+          "name": "DEMA",
+          "latLng": {
+            "lat": 48.67559649446543,
+            "lng": 17.354874014854435
+          },
+          "type": 3
+        },
+        {
+          "id": 18,
+          "name": "SPP",
+          "latLng": {
+            "lat": 48.67543709207298,
+            "lng": 17.35250294208527
+          },
+          "type": 3
+        },
+        {
+          "id": 19,
+          "name": "Technické služby",
+          "latLng": {
+            "lat": 48.67227019862899,
+            "lng": 17.345448732376102
+          },
+          "type": 3
+        },
+        {
+          "id": 20,
+          "name": "Železničná, Arriva",
+          "latLng": {
+            "lat": 48.66971248853942,
+            "lng": 17.34101235866547
+          },
+          "type": 3
+        },
+        {
+          "id": 21,
+          "name": "Železničná stanica",
+          "latLng": {
+            "lat": 48.666095316006,
+            "lng": 17.334617972373966
+          },
+          "type": 3
+        },
+        {
+          "id": 22,
+          "name": "Priemyselná, mliekareň",
+          "latLng": {
+            "lat": 48.67158651933495,
+            "lng": 17.360351085662845
+          },
+          "type": 3
+        },
+        {
+          "id": 23,
+          "name": "Lipová, IBV",
+          "latLng": {
+            "lat": 48.671806161319076,
+            "lng": 17.36575841903687
+          },
+          "type": 3
+        },
+        {
+          "id": 24,
+          "name": "Okružná",
+          "latLng": {
+            "lat": 48.67350251261293,
+            "lng": 17.373386621475223
+          },
+          "type": 3
+        },
+        {
+          "id": 25,
+          "name": "Štefánikova",
+          "latLng": {
+            "lat": 48.681295637889356,
+            "lng": 17.37421274185181
+          },
+          "type": 3
+        },
+        {
+          "id": 26,
+          "name": "Mestský úrad",
+          "latLng": {
+            "lat": 48.68133282547373,
+            "lng": 17.370269894599918
+          },
+          "type": 3
+        },
+        {
+          "id": 27,
+          "name": "Hviezdoslavova",
+          "latLng": {
+            "lat": 48.6807244687009,
+            "lng": 17.36324787139893
+          },
+          "type": 3
+        },
+        {
+          "id": 28,
+          "name": "Čáčovská cesta",
+          "latLng": {
+            "lat": 48.67862080394577,
+            "lng": 17.35677838325501
+          },
+          "type": 3
+        },
+        {
+          "id": 29,
+          "name": "MAHLE",
+          "latLng": {
+            "lat": 48.67827018461176,
+            "lng": 17.35272288322449
+          },
+          "type": 3
+        },
+        {
+          "id": 30,
+          "name": "Čáčov, dolný koniec",
+          "latLng": {
+            "lat": 48.67904654755335,
+            "lng": 17.341945767402652
+          },
+          "type": 3
+        },
+        {
+          "id": 31,
+          "name": "Čáčov, MŠ",
+          "latLng": {
+            "lat": 48.679311410647955,
+            "lng": 17.337841987609867
+          },
+          "type": 3
+        },
+        {
+          "id": 32,
+          "name": "Čáčov, kostol",
+          "latLng": {
+            "lat": 48.6777637301542,
+            "lng": 17.338099479675297
+          },
+          "type": 3
+        },
+        {
+          "id": 33,
+          "name": "Čáčov, horný koniec",
+          "latLng": {
+            "lat": 48.67540521093016,
+            "lng": 17.330964803695682
+          },
+          "type": 3
+        },
+        {
+          "id": 34,
+          "name": "SNP, cintorín",
+          "latLng": {
+            "lat": 48.67637889505628,
+            "lng": 17.37244784832001
+          },
+          "type": 3
+        },
+        {
+          "id": 35,
+          "name": "Tehelná",
+          "latLng": {
+            "lat": 48.67595424639684,
+            "lng": 17.350094318389896
+          },
+          "type": 3
+        }
+      ],
+      "lines": [
+        {
+          "id": 0,
+          "name": "1",
+          "color": "#ffc425",
+          "vis": true
+        },
+        {
+          "id": 1,
+          "name": "2",
+          "color": "#00aedb",
+          "vis": true
+        },
+        {
+          "id": 2,
+          "name": "3",
+          "color": "#00b159",
+          "vis": true
+        },
+        {
+          "id": 3,
+          "name": "4",
+          "color": "#d11141",
+          "vis": true
+        }
+      ],
+      "routes": [
+        {
+          "id": 0,
+          "name": "1_Aut_Aut",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 4
+            },
+            {
+              "id": 5
+            },
+            {
+              "id": 6
+            },
+            {
+              "id": 7
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Sot_Zel",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 11
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Aut_Zel",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 14
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 16
+            },
+            {
+              "id": 18
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 21
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Zel_Aut",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 21
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 17
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "2_Zel_Sot",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 21
+            },
+            {
+              "id": 20
+            },
+            {
+              "id": 19
+            },
+            {
+              "id": 17
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 10
+            },
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            },
+            {
+              "id": 11
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Pol_MS_Cac",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            },
+            {
+              "id": 27
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 31
+            },
+            {
+              "id": 30
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Pol_HOR_Cac",
+          "vis": false,
+          "waypoints": [
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            },
+            {
+              "id": 27
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 33
+            },
+            {
+              "id": 32
+            },
+            {
+              "id": 30
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Cac_Pol",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 30
+            },
+            {
+              "id": 35
+            },
+            {
+              "id": 17
+            },
+            {
+              "id": 22
+            },
+            {
+              "id": 23
+            },
+            {
+              "id": 24
+            },
+            {
+              "id": 34
+            },
+            {
+              "id": 8
+            },
+            {
+              "id": 25
+            },
+            {
+              "id": 26
+            },
+            {
+              "id": 0
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Pol_MAH_Cac",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            },
+            {
+              "id": 27
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 29
+            },
+            {
+              "id": 31
+            },
+            {
+              "id": 30
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "3_Pol_MS_HOR_Cac",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            },
+            {
+              "id": 0
+            },
+            {
+              "id": 27
+            },
+            {
+              "id": 28
+            },
+            {
+              "id": 31
+            },
+            {
+              "id": 33
+            },
+            {
+              "id": 32
+            },
+            {
+              "id": 30
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "4_Aut_Cac",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 0
+            },
+            {
+              "id": 33
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "4_Cac_Sot",
+          "vis": true,
+          "waypoints": [
+            {
+              "id": 33
+            },
+            {
+              "id": 32
+            },
+            {
+              "id": 30
+            },
+            {
+              "id": 35
+            },
+            {
+              "id": 15
+            },
+            {
+              "id": 0
+            },
+            {
+              "id": 13
+            },
+            {
+              "id": 12
+            },
+            {
+              "id": 11
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
