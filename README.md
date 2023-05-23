@@ -4,7 +4,7 @@ Tento repozitár predstavuje výslednú implementáciu bakalárskej práce Webov
 
 [Live demo](https://jorgen98.github.io/Geovisto-TransitTool/iframe.html?id=demo--geovisto-map&viewMode=story)
 
-Návod na použitie
+[Návod na použitie](https://drive.google.com/file/d/1seXNWdJeB5WHAdW-bliiyPjYcbQwtB_X/view?usp=sharing)
 
 [Technická správa](https://www.fit.vut.cz/study/thesis/23889/)
 
@@ -12,7 +12,7 @@ This repository represents the final implementation of the bachelor thesis Web a
 
 [Live demo](https://jorgen98.github.io/Geovisto-TransitTool/iframe.html?id=demo--geovisto-map&viewMode=story)
 
-Instructions for use
+[How to use](https://drive.google.com/file/d/1seXNWdJeB5WHAdW-bliiyPjYcbQwtB_X/view?usp=sharing)
 
 [Technical report](https://www.fit.vut.cz/study/thesis/23889/)
 
